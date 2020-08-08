@@ -5,25 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Webshop Components</title>
+    <title>Account Settings</title>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            
-            <div class="card-text">
-                <h2>keep it sporty</h2>
-                <span>Our mission is to change the world through sport. Browse sportwear and shoes</span>
-              
-                <input type="submit" value="View Collection">
-                
-            </div>
-            <div class="card-img">
-                <img src="img/1.jpg" alt="">
-            </div>
+        <div class="nav">
+            <span><i class="fa fa-home" aria-hidden="true"></i>Boards</span>
+        <span><i class="fa fa-user-circle" aria-hidden="true"></i>Tsagan Garyaeva <i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         </div>
-        
-        
+       <main>
+           <div class="title">
+               <h1>Account Settings</h1>
+               <p>Edit your name, avatar etc.</p>
+           </div>
+           <div class="main-content">
+                <form action="">
+                    <label for="">Your name</label>
+                    <input type="text" name="" id="">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="">
+                    <label for="">Email Address</label>
+                    <input type="email" name="" id="">
+
+                    <div class="delete">
+                        <h4>Delete Your Account</h4>
+                        <span>
+                            You will recieve an email to confirm your decision. Please note, that all your information will be erased.
+                        </span>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="Cancel">
+                        <input id="cancel" type="submit" value="Save">
+                    </div>
+                </form>
+                <div class="avatar">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <input type="submit" value="Upload a picture">
+                </div>
+           </div>
+       </main>
     </div>
 </body>
 </html>
